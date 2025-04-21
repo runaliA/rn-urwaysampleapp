@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		109E1BB1ADC36B346CDA4980 /* libPods-MyUrway.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD186B7FCF82FB7C29FCAB23 /* libPods-MyUrway.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		309F6AB8BDC772AA8C226D91 /* libPods-MyUrway.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB5F2C5ED29308B96ED382C /* libPods-MyUrway.a */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		772A6742EAB9839874B39FFF /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -19,11 +19,11 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MyUrway/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MyUrway/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = MyUrway/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		249938FBA9E11C162A3492A4 /* Pods-MyUrway.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyUrway.release.xcconfig"; path = "Target Support Files/Pods-MyUrway/Pods-MyUrway.release.xcconfig"; sourceTree = "<group>"; };
+		461B0D68BD8E01A70EE295B9 /* Pods-MyUrway.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyUrway.release.xcconfig"; path = "Target Support Files/Pods-MyUrway/Pods-MyUrway.release.xcconfig"; sourceTree = "<group>"; };
+		67C01773BD2D6BBA1E947C20 /* Pods-MyUrway.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyUrway.debug.xcconfig"; path = "Target Support Files/Pods-MyUrway/Pods-MyUrway.debug.xcconfig"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MyUrway/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MyUrway/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9EE07093773AC6C282F18DA8 /* Pods-MyUrway.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyUrway.debug.xcconfig"; path = "Target Support Files/Pods-MyUrway/Pods-MyUrway.debug.xcconfig"; sourceTree = "<group>"; };
-		AD186B7FCF82FB7C29FCAB23 /* libPods-MyUrway.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyUrway.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB5F2C5ED29308B96ED382C /* libPods-MyUrway.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyUrway.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				109E1BB1ADC36B346CDA4980 /* libPods-MyUrway.a in Frameworks */,
+				309F6AB8BDC772AA8C226D91 /* libPods-MyUrway.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				AD186B7FCF82FB7C29FCAB23 /* libPods-MyUrway.a */,
+				8EB5F2C5ED29308B96ED382C /* libPods-MyUrway.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -92,8 +92,8 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9EE07093773AC6C282F18DA8 /* Pods-MyUrway.debug.xcconfig */,
-				249938FBA9E11C162A3492A4 /* Pods-MyUrway.release.xcconfig */,
+				67C01773BD2D6BBA1E947C20 /* Pods-MyUrway.debug.xcconfig */,
+				461B0D68BD8E01A70EE295B9 /* Pods-MyUrway.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -105,13 +105,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MyUrway" */;
 			buildPhases = (
-				19FFCC0ACFD339565081380D /* [CP] Check Pods Manifest.lock */,
+				1BD2DE7ABD00DC16510A0341 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				51D91A1ACB8C5D275532DE90 /* [CP] Embed Pods Frameworks */,
-				4BC9CBBFA33AD38E64A74EC5 /* [CP] Copy Pods Resources */,
+				AC0225BE241D9FCAA22916DB /* [CP] Embed Pods Frameworks */,
+				634020FBDB90500166192BBB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,7 +183,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		19FFCC0ACFD339565081380D /* [CP] Check Pods Manifest.lock */ = {
+		1BD2DE7ABD00DC16510A0341 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -205,7 +205,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4BC9CBBFA33AD38E64A74EC5 /* [CP] Copy Pods Resources */ = {
+		634020FBDB90500166192BBB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -222,7 +222,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyUrway/Pods-MyUrway-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		51D91A1ACB8C5D275532DE90 /* [CP] Embed Pods Frameworks */ = {
+		AC0225BE241D9FCAA22916DB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,7 +255,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9EE07093773AC6C282F18DA8 /* Pods-MyUrway.debug.xcconfig */;
+			baseConfigurationReference = 67C01773BD2D6BBA1E947C20 /* Pods-MyUrway.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -283,7 +283,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 249938FBA9E11C162A3492A4 /* Pods-MyUrway.release.xcconfig */;
+			baseConfigurationReference = 461B0D68BD8E01A70EE295B9 /* Pods-MyUrway.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
